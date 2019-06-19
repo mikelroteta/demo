@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.demo.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.207 s - in com.example.demo.DemoApplicationTests
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.519 s <<< FAILURE! - in com.example.demo.DemoApplicationTests
+contextLoads(com.example.demo.DemoApplicationTests)  Time elapsed: 0.074 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.demo.DemoApplicationTests.contextLoads(DemoApplicationTests.java:17)
+
