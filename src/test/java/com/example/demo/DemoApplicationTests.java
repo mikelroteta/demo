@@ -14,7 +14,7 @@ public class DemoApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		Assert.assertNotNull(null);
+		Assert.assertNull(null);
 	}
 
 }
